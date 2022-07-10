@@ -80,6 +80,7 @@ public class ToogleColor : MonoBehaviour
             gGobj2.transform.Translate(fSpeed * Time.deltaTime, 0, 0);
         }
 
+        Debug.Log("Тест обновления файла на гит, я отредактировал текст, первая попытка");
 
 
         tTilemap.SetTile(vConvertVec3ToVec3Int(gGrid, gGobj2.transform.position), tTile);
